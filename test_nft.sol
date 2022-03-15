@@ -3,9 +3,10 @@
 pragma solidity ^0.8.0;
 
 contract nftspace{
-
+     
+     address owner;
     constructor()  {
-       address  owner = msg.sender;
+         owner = msg.sender;
     }
     
     uint counter;
