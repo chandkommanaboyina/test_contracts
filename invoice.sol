@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-contract dygnify{
+contract invoice{
 
     uint counts = 0;
 
